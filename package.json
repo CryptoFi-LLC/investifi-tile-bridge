@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "description": "Host side of the InvestiFi tile postMessage contract",
   "license": "MIT",
-  "author": "InvestiFi",
+  "author": "InvestiFi, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryptoFi-LLC/investifi-tile-bridge.git"
+  },
+  "homepage": "https://github.com/CryptoFi-LLC/investifi-tile-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/CryptoFi-LLC/investifi-tile-bridge/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
