@@ -1,5 +1,8 @@
 # InvestiFi Tile Bridge
 
+[![npm version](https://img.shields.io/npm/v/%40investifi%2Ftile-bridge)](https://www.npmjs.com/package/@investifi/tile-bridge)
+[![CI](https://github.com/CryptoFi-LLC/investifi-tile-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/CryptoFi-LLC/investifi-tile-bridge/actions/workflows/ci.yml)
+
 Host side of the InvestiFi tile `postMessage` contract.
 
 ## Install
