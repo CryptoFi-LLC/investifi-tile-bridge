@@ -2,7 +2,7 @@
 
 This document outlines how to handle the tile's `investifi:launch` message sent via `postMessage`, in a React Native mobile WebView.
 
-The full InvestiFi experience is served from the same web origin as the tile, so there is no session to hand across. 
+The full InvestiFi experience is served from the same web origin as the tile, so there is no session to hand across.
 
 What you build is one `onMessage` handler on the screen that hosts the tile.
 
