@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+
+### Minor Changes
+
+- 0fa9f98: Ship the build as ESM instead of CommonJS. Adds `"type": "module"` and an `exports` map.
+
 ## 0.1.1
 
 ### Patch Changes
