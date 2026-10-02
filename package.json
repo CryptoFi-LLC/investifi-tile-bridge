@@ -16,14 +16,21 @@
     "access": "public"
   },
   "packageManager": "pnpm@10.33.4",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "files": [
     "dist"
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "tsc --emitDeclarationOnly && esbuild src/index.ts --minify --format=cjs --target=es2019 --outfile=dist/index.js",
+    "build": "tsc --emitDeclarationOnly && esbuild src/index.ts --minify --format=esm --target=es2019 --outfile=dist/index.js",
     "test": "vitest run",
     "prepublishOnly": "npm run build",
     "changeset": "changeset",
