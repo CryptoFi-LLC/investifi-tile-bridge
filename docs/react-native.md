@@ -39,7 +39,9 @@ onShouldStartLoadWithRequest={(request) =>
 }
 ```
 
-The tile posts the same payload used in the web implementation:
+### Payload
+
+The tile posts the same payload for React Native as used in the web implementation:
 
 ```jsx
 window.ReactNativeWebView.postMessage(
@@ -47,7 +49,7 @@ window.ReactNativeWebView.postMessage(
 );
 ```
 
-## React Native vs Web iFrame
+## React Native vs Web Iframe
 
 |                | React Native                                                              | Web Iframe                                                       |
 | -------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------- |
