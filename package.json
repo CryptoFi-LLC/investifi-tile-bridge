@@ -1,6 +1,6 @@
 {
   "name": "@investifi/tile-bridge",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Host side of the InvestiFi tile postMessage contract",
   "license": "MIT",
   "author": "InvestiFi, Inc.",
